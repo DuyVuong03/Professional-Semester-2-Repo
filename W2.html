@@ -5,52 +5,45 @@
     <title>Contact Form</title>
   </head>
   <body>
-    <<form class="" action="index.html" method="post" enctype="multipart/form-data">
+    <h1>Contact form</h1>
+    <form class="" action="index.html" method="post" enctype="multipart/form-data">
       <!--Purpose of contact selection-->
-      <<div class="groupInput">
-        <<label for="contactPurpose"></label>
-        <<select name="contactPurpose">
-          <<option value="P">Personal</option>
-          <<<option value="B">Business</option>
+      <div class="groupInput">
+        <label for="contactPurpose"></label>
+        <select name="contactPurpose">
+          <option value="P">Personal</option>
+          <option value="B">Business</option>
         </select>
       </div>
 
       <!--Name Field-->
-      <<div class="groupInput">
-        <<label for="userName">Name</label>
-        <<input type="text" name="userName" id="userName">
+      <div class="groupInput">
+        <label for="userName">Name</label>
+        <input type="text" name="userName" id="userName">
       </div>
 
       <!--Email Field-->
-      <<div class="groupInput">
-        <<label for="userMail">Email</label>
-        <<input type="email" name="userMail" id="userMail">
+      <div class="groupInput">
+        <label for="userMail">Email</label>
+        <input type="email" name="userMail" id="userMail">
       </div>
 
       <!--Phone Field-->
-      <<div class="groupInput">
-        <<label for="userPhone">Phone Number</label>
-        <<input type="tel" name="userPhone" id="userPhone">
+      <div class="groupInput">
+        <label for="userPhone">Phone Number</label>
+        <input type="tel" name="userPhone" id="userPhone">
       </div>
 
       <!--Preferred Contact Method Field-->
-      <<div class="groupInput">
-        <<label for="contactMethod">Phone</label>
-        <<input type="radio" name="Preferred" value="P" id="preferredPhone">
-        <<label for="contactMethod">Email</label>
-        <<input type="radio" name="Preferred" value="E" id="preferredEmail">
+      <div class="groupInput">
+        <label for="contactMethod">Phone</label>
+        <input type="radio" name="Preferred" value="P" id="preferredPhone">
+        <label for="contactMethod">Email</label>
+        <input type="radio" name="Preferred" value="E" id="preferredEmail">
       </div>
 
-      <!--Contact Day(s)-->
-      <<div class="groupInput">
-        <<label for="contactDay">Select a suitable date</label>
-        <<input type="radio" name="Preferred" value="P" id="preferredPhone">
-        <<label for="contactMethod">Email</label>
-        <<input type="radio" name="Preferred" value="E" id="preferredEmail">
-      </div>
-
-      <<input type="submit" name="act" value="Send">
-      <<input type="reset" name="reset" value="Clear">
+      <input type="submit" name="act" value="Send">
+      <input type="reset" name="reset" value="Clear">
     </form>
   </body>
 </html>
